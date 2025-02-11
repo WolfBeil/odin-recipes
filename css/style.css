@@ -1,3 +1,45 @@
 * {
-    border: solid 1px;
+    margin: auto;
+    padding: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {text-decoration: none; color:black;}
+a:hover {text-decoration: none; color: orange;}
+
+
+.back {
+    background-color: hsla(22, 38%, 48%, 0.500);
+}
+
+.top {
+   background-color: hsla(19, 56%, 40%, 0.700);
+   margin: auto;
+   text-align: center;
+   font-size: 30px;
+   height: 150px;
+   line-height: 150px;
+   border-bottom: sienna solid 5px;
+}
+
+.list {
+    margin-top: 25px;
+    padding: 10px 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding: 15px 15px;
+    display: inline-block;
+    background-color: rgba(233, 83, 24, 0.699);
+    border: solid sienna 2px;
 }
